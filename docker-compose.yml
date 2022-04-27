@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  hasura-clickhouse:
+    build: .
+    ports:
+      - "8081:8081"
+    environment:
+      CLICKHOUSE_HOST: "127.0.0.1"
+      CLICKHOUSE_DB_PATTERN: "default"
+      CLICKHOUSE_TABLE_PATTERN: "."
