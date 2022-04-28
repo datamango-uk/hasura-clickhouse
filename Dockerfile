@@ -11,10 +11,10 @@ COPY ./cmd ./cmd
 COPY ./common ./common
 COPY ./input ./input
 COPY ./processor ./processor
-COPY ./entry.sh /
+COPY ./entry.sh ./
 
+RUN ["chmod", "+x", "./entry.sh"]
 RUN go build
 
 EXPOSE 8081
-
-CMD ["/entry.sh"]
+CMD ["./entry.sh"]
