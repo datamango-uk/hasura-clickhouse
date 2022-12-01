@@ -1,3 +1,4 @@
 .idea
 *.env
 shipper
+node_modules

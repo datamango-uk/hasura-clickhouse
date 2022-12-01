@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "async": "^3.2.3",
+    "glob": "^8.0.1",
+    "ora": "^6.1.0",
+    "rx-text-search": "^1.0.0"
+  },
+  "type": "module",
+  "name": "hasura-clickhouse",
+  "description": "Based on the work at https://github.com/click-stream/shipper with a docker service attached. See shipper documentation for configuration options.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/datamango-uk/hasura-clickhouse.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/datamango-uk/hasura-clickhouse/issues"
+  },
+  "homepage": "https://github.com/datamango-uk/hasura-clickhouse#readme"
+}
