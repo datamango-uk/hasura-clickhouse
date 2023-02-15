@@ -70,4 +70,4 @@ export default function searchDirectory(src, maxOpenFiles, ignore) {
 }
 
 
-searchDirectory('../../enexo-frontend/src')
+searchDirectory('../../ciso-dashboards/src')
