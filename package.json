@@ -3,7 +3,10 @@
     "async": "^3.2.3",
     "glob": "^8.0.1",
     "ora": "^6.1.0",
-    "rx-text-search": "^1.0.0"
+    "rx-text-search": "^1.0.0",
+    "syslog-client": "^1.1.1",
+    "winston": "^3.8.2",
+    "winston-tcp": "^3.0.0"
   },
   "type": "module",
   "name": "hasura-clickhouse",
